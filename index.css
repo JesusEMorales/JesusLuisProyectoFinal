@@ -6,19 +6,23 @@
     padding-top: 10px;
 }
 
+.calcu3{
+    padding-top: 10px;
+}
+
 .calcu2{
     padding-top: 10px;
 }
 
 .calculadorareal{
-    width: 40%;
-    height: 650px;
-    background-color: #ff00ff;
+    width: 37%;
+    height: 570px;
+    background-color: #383838;
     border-radius: 20px;
 }
 
 .pantalla{
-    padding-top: 25px;
+    padding-top: 30px;
 }
 
 .pantalla input{
@@ -26,39 +30,47 @@
     width: 90%;
     border-radius: 20px;
     border: 2px solid #000000;
-    font-size: 100px;
-    font-family: 'Orbitron', monospace;
+    font-size: 80px;
+    font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
+    padding: 10px;
+    background-color: #869181;
 }
 
 .calcu button{
-    width: 80px;
-    height: 75px;
+    width: 70px;
+    height: 65px;
     border-radius: 20px;
     font-size: 30px;
     margin: 5px;
     font-weight: bolder;
     font-family: 'Orbitron', monospace;
+    background-color: #756c65;
+    color: #ffffff;
 }
 
 .calcu1 button{
-    width: 80px;
-    height: 75px;
+    width: 70px;
+    height: 65px;
     border-radius: 20px;
     font-size: 30px;
     margin: 5px;
     font-weight: bolder;
     font-family: 'Orbitron', monospace;
+    background-color: #756c65;
+    color: #ffffff;
 }
 
 .calcu2 button{
-    width: 80px;
-    height: 75px;
+    width: 70px;
+    height: 65px;
     border-radius: 20px;
     font-size: 30px;
     margin: 5px;
     font-weight: bolder;
     font-family: 'Orbitron', monospace;
+    background-color: #333333;
+    color: #ffffff;
 }
 
 .fila{
@@ -76,10 +88,66 @@
 
 .letras button{
     width: 150px;
-    height: 75px;
+    height: 65px;
     border-radius: 20px;
     font-size: 30px;
     font-weight: bolder;
     font-family: 'Orbitron', monospace;
     text-align: center;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.calcu3 button{
+    width: 70px;
+    height: 65px;
+    border-radius: 20px;
+    font-size: 30px;
+    margin: 5px;
+    font-weight: bolder;
+    font-family: 'Orbitron', monospace;
+    background-color: #b5804b;
+    color: #ffffff;
+}
+
+.titulo{
+    font-family: 'Orbitron', monospace;
+    font-weight: bolder;
+    font-size: 90px;
+    text-align: center;
+}
+
+body {
+  margin: 0;
+}
+
+.carrusel {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.carrusel-items {
+  display: flex;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding: 30px 0px;
+}
+
+.carrusel-item {
+  min-width: 300px;
+  max-width: 300px;
+  height: 200px;
+  outline: 2px solid black;
+  cursor: pointer;
+}
+
+.carrusel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carrusel-item:hover {
+  transform: scale(1.2);
 }
