@@ -1,0 +1,8 @@
+
+.divcarru{
+    display: flex;
+}
+
+.divcarru img{
+    width: 400px;
+}
