@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Suma</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="suma.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
@@ -32,6 +36,120 @@
             </div>
         </div>
     </nav>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <div class="principal">
+        <div class="imagen">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2lLIAfZSccFeB8LzlmeHM9i3IYV3Hg82RSH53za-KcQ&s=10"
+                            class="d-blockw-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk6VOCkh4u-T-A0KYNCiNkFOiwdf6DuNrIoIom5nEDug&s"
+                            class="d-blockw-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMS9-5aWOha-3yKLE_oCcLVJJcdizBKmyJ97UopwKOA&s=10"
+                            class="d-blockw-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+        <div class="informacion">
+            <h1>LA SUMA</h1>
+            <p>La suma o adición es una operación matemática básica que consiste en combinar, añadir o agrupar dos o más
+                <br>cantidades para obtener un total único. Se representa con el símbolo más (+).
+                <br>
+            <h2>Partes de una Suma</h2>
+            <ul>
+                <li>
+                    <p><b>Sumandos:</b> Son cada uno de los números que se van a añadir o combinar (pueden ser dos o
+                        más).</p>
+                </li>
+                <li>
+                    <p><b>Signo más (+):</b>Es el operador que indica la acción de añadir.</p>
+                </li>
+                <li>
+                    <p><b>Suma o Total:</b> Es el resultado final y definitivo de la operación.</p>
+                </li>
+            </ul>
+            </p>
+        </div>
+    </div>
+    <br>
+    <h1>Calculadora</h1>
+    <br>
+
+    <input type="text" id="pantalla" readonly>
+    <div class="padre">
+        <div class="hijo">
+            <button onclick="Agregar(1)">1</button>
+        </div>
+        <div class="hijo">
+            <button onclick="Agregar(2)">2</button>
+        </div>
+        <div class="hijo">
+            <button onclick="Agregar(3)">3</button>
+        </div>
+    </div>
+    <br>
+    <div class="padre">
+        <div class="hijo">
+            <button onclick="Agregar(4)">4</button>
+        </div>
+        <div class="hijo">
+            <button onclick="Agregar(5)">5</button>
+        </div>
+        <div class="hijo">
+            <button onclick="Agregar(6)">6</button>
+        </div>
+    </div>
+    <br>
+    <div class="padre">
+        <div class="hijo">
+            <button onclick="Agregar(7)">7</button>
+        </div>
+        <div class="hijo">
+            <button onclick="Agregar(8)">8</button>
+        </div>
+        <div class="hijo">
+            <button onclick="Agregar(9)">9</button>
+        </div>
+    </div>
+    <div class="padre">
+        <div class="hijo">
+            <button onclick="Agregar('+')">+</button>
+        </div>
+        <div class="hijo">
+            <button onclick="Agregar(0)">0</button>
+        </div>
+        <div class="hijo">
+            <button onclick="Eliminar()">Eliminar</button>
+        </div>
+    </div>
+    <div class="hijo">
+         <button onclick="Calcular()">=</button>
+    </div>
+    
+    
+    
+    
+    
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
