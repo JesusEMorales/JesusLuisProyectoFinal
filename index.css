@@ -1,0 +1,85 @@
+.calcu{
+    padding-top: 20px;
+}
+
+.calcu1{
+    padding-top: 10px;
+}
+
+.calcu2{
+    padding-top: 10px;
+}
+
+.calculadorareal{
+    width: 40%;
+    height: 650px;
+    background-color: #ff00ff;
+    border-radius: 20px;
+}
+
+.pantalla{
+    padding-top: 25px;
+}
+
+.pantalla input{
+    height: 150px;
+    width: 90%;
+    border-radius: 20px;
+    border: 2px solid #000000;
+    font-size: 100px;
+    font-family: 'Orbitron', monospace;
+    font-weight: bolder;
+}
+
+.calcu button{
+    width: 80px;
+    height: 75px;
+    border-radius: 20px;
+    font-size: 30px;
+    margin: 5px;
+    font-weight: bolder;
+    font-family: 'Orbitron', monospace;
+}
+
+.calcu1 button{
+    width: 80px;
+    height: 75px;
+    border-radius: 20px;
+    font-size: 30px;
+    margin: 5px;
+    font-weight: bolder;
+    font-family: 'Orbitron', monospace;
+}
+
+.calcu2 button{
+    width: 80px;
+    height: 75px;
+    border-radius: 20px;
+    font-size: 30px;
+    margin: 5px;
+    font-weight: bolder;
+    font-family: 'Orbitron', monospace;
+}
+
+.fila{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.letras{
+    font-family: 'Orbitron', monospace;
+    font-weight: bolder;
+    font-size: 30px;
+    padding-top: 15px;
+}
+
+.letras button{
+    width: 150px;
+    height: 75px;
+    border-radius: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Orbitron', monospace;
+    text-align: center;
+}
