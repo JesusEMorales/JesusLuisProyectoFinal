@@ -1,2 +1,39 @@
+.padre{
+    display: flex;
+    width: 100%;
+    
 
+}
+.hijo{
+    width:33.33% ;
+    border: 20px;
+    border-radius: 20px;
+    border: solid 5px goldenrod;
+    
+}
+
+
+.padre2{
+    display: flex;
+    
+    width: 33.333%;
+    padding-left: 175px;
+    
+    
+}
+.img{
+    width: 200px;
+    height: 100px;
+}
+.hijo1{
+ width: 30px;
+ height: 30px;
+}
+.boton{
+    border: 20px;
+    border-radius: 20px;
+    border-color: black;
+    background-color: darkgrey;
+    
+}
 
