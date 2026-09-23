@@ -10,7 +10,7 @@
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 
-<body style="background-color: #95d5b2;">
+<body style="background-color: #ff8fa3;">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">Inicio</a>
@@ -37,14 +37,14 @@
         </div>
     </nav>
     <center>
-        <h1>resta</h1>
+        <h1 style="color: #4f000b; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: bolder; margin-bottom: 2%; margin-top: 1%; font-size: 80px;">La resta</h1>
     
     <div class="subtitulo">
-        <h2>¿Que es la resta ?</h2>
-        <p><br>resta o sustracción es una operación aritmética básica que consiste en quitar, reducir o separar una cantidad
+        <h2 style="color: #4f000b; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: bolder;">¿Que es la resta?</h2>
+        <p style="font-weight: bolder;"><br>resta o sustracción es una operación aritmética básica que consiste en quitar, reducir o separar una cantidad
             <br>(el sustraendo) de un total inicial (el minuendo) para obtener un resultado final (la diferencia).</p>
     </div>
-   <h2> partes de la resta </h2>
+   <h2 style="color: #4f000b; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: bolder;">Partes de la resta</h2>
 </center>
 <center>
     <div id="carouselExampleCaptions" class="carousel slide">
@@ -60,22 +60,22 @@
             <div class="carousel-item active">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAR4OUj_Bt0PQipFXzZ8EsZ8_3jfBfpJQErZcBJ8J9jg&s=10" class="d-blockw-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5 class="textt">Minuendo: </h5>
-                    <p class="textt">El número inicial o cantidad mayor de la que se va a restar.</p>
+                    <h5 class="textt"><b>Minuendo</b></h5>
+                    <p class="textt"><b>El número inicial o cantidad mayor de la que se va a restar.</b></p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb9Bf2oA_QWBR9muaMnRaa-2oo1S0zrPGU6dvA3yH3hg&s=10" class="d-blockw-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5 class="textt">Sustraendo:</h5>
-                    <p class="textt"> La cantidad menor que se decide quitar o retirar.</p>
+                    <h5 class="textt"><b>Sustraendo:</b></h5>
+                    <p class="textt"><b>La cantidad menor que se decide quitar o retirar.</b></p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnmbnMODswyfL2yNOzcgY-cRXu4RS97LvUpVD7B93LGw&s=10" class="d-blockw-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5 class="textt">Diferencia: </h5>
-                    <p class="textt">El resultado final que se obtiene tras realizar la operación.</p>
+                    <h5 class="textt"><b>Diferencia:</b></h5>
+                    <p class="textt"><b>El resultado final que se obtiene tras realizar la operación.</b></p>
                 </div>
             </div>
         </div>
@@ -94,65 +94,73 @@
 </center>
 <br>
  <center>
-    <h1>Calculadora</h1>
+    <h1 style="color: #4f000b; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: bolder;">Calculadora</h1>
     
 <div class="panta">
     <input type="text" id="pantalla" readonly>
 </div>
+<div class="calcu">
     <br>
-    <br>
-    <div class="padre">
+    <center>
+    <div class="padre1">
         <div class="hijo1">
             <button class="boton" onclick="Agregar(1)">1</button>
         </div>
-        <div class="hijo1">
+        <div class="hijo2">
             <button class="boton" onclick="Agregar(2)">2</button>
         </div>
         <div class="hijo1">
             <button class="boton" onclick="Agregar(3)">3</button>
         </div>
     </div>
-   
-    <div class="padre">
+    </center>
+    <center>
+    <div class="padre2">
         <div class="hijo1">
             <button class="boton" onclick="Agregar(4)">4</button>
         </div>
-        <div class="hijo1">
+        <div class="hijo2">
             <button class="boton" onclick="Agregar(5)">5</button>
         </div>
         <div class="hijo1">
             <button class="boton" onclick="Agregar(6)">6</button>
         </div>
     </div>
-    
-    <div class="padre">
+    </center>
+    <center>
+    <div class="padre3">
         <div class="hijo1">
             <button class="boton" onclick="Agregar(7)">7</button>
         </div>
-        <div class="hijo1">
+        <div class="hijo2">
             <button class="boton" onclick="Agregar(8)">8</button>
         </div>
         <div class="hijo1">
             <button class="boton" onclick="Agregar(9)">9</button>
         </div>
     </div>
-    <div class="padre">
+    </center>
+    <center>
+    <div class="padre4">
         <div class="hijo1">
             <button class="boton" onclick="Agregar('-')">-</button>
         </div>
-        <div class="hijo1">
+        <div class="hijo2">
             <button class="boton" onclick="Agregar(0)">0</button>
         </div>
         <div class="hijo1">
             <button class="boton" onclick="Eliminar()">c</button>
         </div>
     </div>
-     <div class="padre">
-
-    <div class="hijo1">
+    </center>
+    <center>
+     <div class="padre5">
+        <div class="hijo12">
          <button class="boton" onclick="Calcular()">=</button>
+        </div>
     </div>
-</div>
+    </center>
+</div></center>
     </center>
     <script src="resta.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
