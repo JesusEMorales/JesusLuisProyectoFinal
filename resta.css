@@ -1,0 +1,25 @@
+.d-blockw-100{
+    width: 800px;
+    height: 500px ;}
+.textt{
+    color: black;
+}
+.padre{
+    display: flex;
+    
+    width: 33.333%;
+    padding-left: 175px;
+    
+    
+}
+.hijo1{
+ width: 30px;
+ height: 30px;
+}
+.boton{
+    border: 20px;
+    border-radius: 20px;
+    border-color: black;
+    background-color: darkgrey;
+    
+}
