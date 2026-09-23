@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resta</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="resta.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
-<body>
+
+<body style="background-color: #95d5b2;">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">Inicio</a>
@@ -32,6 +36,127 @@
             </div>
         </div>
     </nav>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <center>
+        <h1>resta</h1>
+    
+    <div class=" subtitulo ">
+        <h2>¿Que es la resta ?</h2>
+        <p><br>resta o sustracción es una operación aritmética básica que consiste en quitar, reducir o separar una cantidad
+            <br>(el sustraendo) de un total inicial (el minuendo) para obtener un resultado final (la diferencia).</p>
+    </div>
+   <h2> partes de la resta </h2>
+</center>
+<center>
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAR4OUj_Bt0PQipFXzZ8EsZ8_3jfBfpJQErZcBJ8J9jg&s=10" class="d-blockw-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="textt">Minuendo: </h5>
+                    <p class="textt">El número inicial o cantidad mayor de la que se va a restar.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb9Bf2oA_QWBR9muaMnRaa-2oo1S0zrPGU6dvA3yH3hg&s=10" class="d-blockw-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="textt">Sustraendo:</h5>
+                    <p class="textt"> La cantidad menor que se decide quitar o retirar.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnmbnMODswyfL2yNOzcgY-cRXu4RS97LvUpVD7B93LGw&s=10" class="d-blockw-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="textt">Diferencia: </h5>
+                    <p class="textt">El resultado final que se obtiene tras realizar la operación.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    
+    </div>
+</center>
+<br>
+ <center>
+    <h1>Calculadora</h1>
+    
+<div class="panta">
+    <input type="text" id="pantalla" readonly>
+</div>
+    <br>
+    <br>
+    <div class="padre">
+        <div class="hijo1">
+            <button class="boton" onclick="Agregar(1)">1</button>
+        </div>
+        <div class="hijo1">
+            <button class="boton" onclick="Agregar(2)">2</button>
+        </div>
+        <div class="hijo1">
+            <button class="boton" onclick="Agregar(3)">3</button>
+        </div>
+    </div>
+   
+    <div class="padre">
+        <div class="hijo1">
+            <button class="boton" onclick="Agregar(4)">4</button>
+        </div>
+        <div class="hijo1">
+            <button class="boton" onclick="Agregar(5)">5</button>
+        </div>
+        <div class="hijo1">
+            <button class="boton" onclick="Agregar(6)">6</button>
+        </div>
+    </div>
+    
+    <div class="padre">
+        <div class="hijo1">
+            <button class="boton" onclick="Agregar(7)">7</button>
+        </div>
+        <div class="hijo1">
+            <button class="boton" onclick="Agregar(8)">8</button>
+        </div>
+        <div class="hijo1">
+            <button class="boton" onclick="Agregar(9)">9</button>
+        </div>
+    </div>
+    <div class="padre">
+        <div class="hijo1">
+            <button class="boton" onclick="Agregar('+')">+</button>
+        </div>
+        <div class="hijo1">
+            <button class="boton" onclick="Agregar(0)">0</button>
+        </div>
+        <div class="hijo1">
+            <button class="boton" onclick="Eliminar()">c</button>
+        </div>
+    </div>
+     <div class="padre">
+
+    <div class="hijo1">
+         <button class="boton" onclick="Calcular()">=</button>
+    </div>
+</div>
+    </center>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
